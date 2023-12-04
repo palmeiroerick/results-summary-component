@@ -1,5 +1,13 @@
+"use client";
+import GlobalStyle from "./GlobalStyle";
+
 const Home = () => {
-  return <div>hello</div>
-}
+  return (
+    <>
+      <GlobalStyle />
+      <div>hello</div>
+    </>
+  );
+};
 
 export default Home;
