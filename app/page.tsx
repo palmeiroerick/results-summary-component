@@ -1,6 +1,6 @@
 "use client";
-import GlobalStyle from "./GlobalStyle";
-import StyledMain from "./style";
+import GlobalStyle from "@/style/GlobalStyle";
+import StyledMain from "@/style/style";
 
 const Home = () => {
   return (
