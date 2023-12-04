@@ -1,8 +1,4 @@
-type dataType = {
-  category: String;
-  score: Number;
-  icon: String;
-};
+import type { dataType } from "./types";
 
 const data: dataType[] = [
   {
