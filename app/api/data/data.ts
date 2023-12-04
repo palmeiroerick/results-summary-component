@@ -1,0 +1,30 @@
+type dataType = {
+  category: String;
+  score: Number;
+  icon: String;
+};
+
+const data: dataType[] = [
+  {
+    category: "Reaction",
+    score: 80,
+    icon: "/assets/icon-reaction.svg",
+  },
+  {
+    category: "Memory",
+    score: 92,
+    icon: "/assets/icon-memory.svg",
+  },
+  {
+    category: "Verbal",
+    score: 61,
+    icon: "/assets/icon-verbal.svg",
+  },
+  {
+    category: "Visual",
+    score: 72,
+    icon: "/assets/icon-visual.svg",
+  },
+];
+
+export default data;
