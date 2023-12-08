@@ -4,9 +4,9 @@ import { StyledTextProps } from "./types";
 const StyledText = styled.p<StyledTextProps>`
   font-size: ${({ fontSize }) => fontSize};
   font-weight: ${({ weight }) => weight};
-  line-height: 1;
+  line-height: "1.25";
   color: ${({ color }) => `var(${color})`};
-  text-align: center;
+  text-align: ${({ textAlign }) => (textAlign ? textAlign : "start")};
 `;
 
 export default StyledText;

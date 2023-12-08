@@ -12,7 +12,13 @@ const YourResults = () => {
       <Text as="h3" fontSize="2rem" weight="800" color="--White">
         Grate
       </Text>
-      <Text as="p" fontSize="1.125rem" weight="500" color="--Light-lavender">
+      <Text
+        as="p"
+        fontSize="1.125rem"
+        weight="500"
+        color="--Light-lavender"
+        textAlign="center"
+      >
         You scored higher than 65% of the people who have taken these tests.
       </Text>
     </StyledYourResults>
