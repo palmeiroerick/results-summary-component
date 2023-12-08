@@ -1,6 +1,6 @@
 "use client";
 import GlobalStyle from "@/style/GlobalStyle";
-import StyledMain from "@/style/style";
+import StyledMain from "@/app/style";
 import Text from "@/components/Text";
 
 const Home = () => {
