@@ -6,7 +6,7 @@ const StyledText = styled.p<StyledTextProps>`
   font-weight: ${({ weight }) => weight};
   line-height: "1.25";
   color: ${({ color }) => `var(${color})`};
-  text-align: ${({ textAlign }) => (textAlign ? textAlign : "start")};
+  text-align: ${({ text_align }) => (text_align ? text_align : "start")};
 `;
 
 export default StyledText;

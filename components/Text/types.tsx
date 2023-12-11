@@ -10,7 +10,7 @@ export type StyledTextProps = {
     | "--Pale-blue"
     | "--Light-lavender"
     | "--Dark-gray-blue";
-  textAlign?: "center";
+  text_align?: "center";
 };
 
 export type TextProps = StyledTextProps & {

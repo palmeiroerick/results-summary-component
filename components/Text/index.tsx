@@ -7,7 +7,7 @@ const Text: FC<TextProps> = ({
   fontSize,
   weight,
   color,
-  textAlign,
+  text_align,
   children,
 }) => {
   return (
@@ -16,7 +16,7 @@ const Text: FC<TextProps> = ({
       fontSize={fontSize}
       weight={weight}
       color={color}
-      textAlign={textAlign}
+      text_align={text_align}
     >
       {children}
     </StyledText>
