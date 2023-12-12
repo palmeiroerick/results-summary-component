@@ -17,7 +17,7 @@ const YourResults = () => {
         fontSize="1.125rem"
         weight="500"
         color="--Light-lavender"
-        textAlign="center"
+        text_align="center"
       >
         You scored higher than 65% of the people who have taken these tests.
       </Text>
