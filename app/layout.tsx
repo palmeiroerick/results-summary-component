@@ -1,8 +1,8 @@
+import React from "react";
 import type { Metadata } from "next";
-import type { ReactNode } from "react";
 import type { NextFont } from "next/dist/compiled/@next/font";
 import { Hanken_Grotesk } from "next/font/google";
-import StyledComponentsRegistry from "./registry";
+import "@/style/globals.css";
 
 const hankenGrotesk: NextFont = Hanken_Grotesk({
   weight: ["500", "700", "800"],
@@ -15,12 +15,10 @@ export const metadata: Metadata = {
   icons: "/assets/favicon.png",
 };
 
-const RootLayout = ({ children }: { children: ReactNode }) => {
+const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <html lang="en">
-      <body className={hankenGrotesk.className}>
-        <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
-      </body>
+      <body className={hankenGrotesk.className}>{children}</body>
     </html>
   );
 };

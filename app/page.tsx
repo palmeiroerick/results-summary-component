@@ -1,17 +1,7 @@
-"use client";
-import GlobalStyle from "@/style/GlobalStyle";
-import StyledMain from "@/app/style";
-import YourResults from "@/components/YourResults";
+import React from "react";
 
 const Home = () => {
-  return (
-    <>
-      <GlobalStyle />
-      <StyledMain>
-        <YourResults />
-      </StyledMain>
-    </>
-  );
+  return <h1 className="text-3xl">Hello</h1>;
 };
 
 export default Home;
