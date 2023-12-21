@@ -26,6 +26,11 @@ const config: Config = {
       "light-lavender": "#c8c7ff",
       "dark-gray-blue": "#303b59",
     },
+    fontWeight: {
+      medium: "500",
+      bold: "700",
+      extrabold: "800",
+    },
     extend: {},
   },
   plugins: [],
