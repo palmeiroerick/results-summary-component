@@ -18,7 +18,11 @@ export const metadata: Metadata = {
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <html lang="en">
-      <body className={hankenGrotesk.className}>{children}</body>
+      <body
+        className={`${hankenGrotesk.className} md:items-center md:justify-center md:flex md:h-screen md:w-screen`}
+      >
+        {children}
+      </body>
     </html>
   );
 };
