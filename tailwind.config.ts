@@ -5,7 +5,7 @@ const config: Config = {
   theme: {
     screens: {
       sm: "375px",
-      lg: "1440px",
+      md: "768px",
     },
     colors: {
       /* Primary Colors */
