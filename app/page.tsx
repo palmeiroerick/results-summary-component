@@ -1,7 +1,14 @@
 import React from "react";
+import Summary from "@/components/Summary";
+import YourResult from "@/components/YourResult";
 
 const Home = () => {
-  return <h1 className="text-3xl font-extrabold text-light-red">Hello</h1>;
+  return (
+    <main>
+      <YourResult />
+      <Summary />
+    </main>
+  );
 };
 
 export default Home;
