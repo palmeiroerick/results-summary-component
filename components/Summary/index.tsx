@@ -5,8 +5,8 @@ import Button from "../Button";
 
 const Summary = () => {
   return (
-    <section>
-      <h3>Summary</h3>
+    <section className="flex flex-col gap-6 bg-white p-8">
+      <h3 className="text-lg font-bold text-dark-gray-blue">Summary</h3>
       <DataProvider>
         <CategoryList />
       </DataProvider>
