@@ -6,9 +6,9 @@ const Score = () => {
       <h1 className="text-[5rem] font-extrabold leading-none text-pale-blue">
         76
       </h1>
-      <h4 className="text-lg font-bold text-light-lavender text-opacity-50">
+      <h2 className="text-lg font-bold text-light-lavender text-opacity-50">
         of 100
-      </h4>
+      </h2>
     </div>
   );
 };
