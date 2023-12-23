@@ -19,6 +19,8 @@ Users should be able to:
 
 ## Screenshot
 
+![Screen Shot 2023-12-23 at 10 10 02](https://github.com/palmeiroerick/Results-Summary-Component/assets/148393698/d1b1973a-f7cc-418d-88c2-86ce444bbba9)
+
 ## Links
 
 - [Solution](https://github.com/palmeiroerick/Results-Summary-Component)
